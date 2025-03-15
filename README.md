@@ -386,6 +386,80 @@ Example:
 
 ---
 
-This guide now includes an additional 10 advanced CSS topics with theory and practical examples. Let me know if you need further enhancements!
+## **21. CSS Writing Mode**
+### **Theory**
+The `writing-mode` property controls the text flow direction.
+- `horizontal-tb` (default): Left to right.
+- `vertical-rl`: Top to bottom, right to left.
+- `vertical-lr`: Top to bottom, left to right.
 
+Example:
+```css
+p {
+  writing-mode: vertical-rl;
+}
+```
+
+---
+
+## **22. CSS Scroll Snap**
+### **Theory**
+The `scroll-snap-type` property defines scroll behavior.
+
+Example:
+```css
+.scroll-container {
+  scroll-snap-type: y mandatory;
+}
+.scroll-item {
+  scroll-snap-align: start;
+}
+```
+
+---
+
+## **23. CSS Masking**
+### **Theory**
+The `mask-image` property defines transparency masks.
+
+Example:
+```css
+div {
+  mask-image: url('mask.png');
+}
+```
+
+---
+
+## **24. CSS Aspect Ratio**
+### **Theory**
+The `aspect-ratio` property maintains a set width-to-height ratio.
+
+Example:
+```css
+div {
+  aspect-ratio: 16 / 9;
+}
+```
+
+---
+
+## **25. CSS Grid Areas**
+### **Theory**
+The `grid-template-areas` property defines layout areas.
+
+Example:
+```css
+.grid-container {
+  display: grid;
+  grid-template-areas: 'header header' 'sidebar content';
+}
+.header { grid-area: header; }
+.sidebar { grid-area: sidebar; }
+.content { grid-area: content; }
+```
+
+---
+
+This guide now includes an additional 15 advanced CSS topics with theory and practical examples. Let me know if you need further enhancements!
 
