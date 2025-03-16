@@ -461,5 +461,4 @@ Example:
 
 ---
 
-This guide now includes an additional 15 advanced CSS topics with theory and practical examples. Let me know if you need further enhancements!
 
